@@ -1,1 +1,1 @@
-An android application named " Suvidha Setu " . Also available on PlayStore .
+Suvidha Setu is an android application . Also available on PlayStore .
