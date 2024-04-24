@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Suvidha Setu</string>
+    <string name="Title">Suvidha Setu Store</string>
+    <string name="heading">Note : Checking Internet Connection .......</string>
+    <string name="orderButton">ORDER NOW</string>
+</resources>

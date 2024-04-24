@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "885867760631",
+    "firebase_url": "https://test-179a3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "test-179a3",
+    "storage_bucket": "test-179a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885867760631:android:6bf23aa67330ef9af47cf2",
+        "android_client_info": {
+          "package_name": "suvidha.setu.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNebaelP8xIPBGsDIXz_LXa7Mr26dE2gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
