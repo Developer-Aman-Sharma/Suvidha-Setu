@@ -23,7 +23,7 @@
         android:layout_marginBottom="13dp"
         android:fontFamily="serif"
         android:textColor="@color/black"
-        android:text="@string/Title"
+        android:text="@string/Title/nText"
         android:textAlignment="center"
         android:textSize="30sp"
         tools:ignore="HardcodedText" />
