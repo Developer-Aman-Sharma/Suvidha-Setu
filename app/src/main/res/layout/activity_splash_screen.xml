@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:background="#EFFFB3"
     android:layout_height="match_parent"
-    tools:context=".SplashScreen">
+    android:background="#EFFFB3"
+    tools:context="suvidha.setu.com.SplashScreen">
 
     <TextView
         android:id="@+id/Welcome"

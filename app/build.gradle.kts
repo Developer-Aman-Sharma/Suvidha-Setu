@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "suvidha.setu.comu"
+    namespace = "suvidha.setu.com"
     compileSdk = 34
 
     defaultConfig {

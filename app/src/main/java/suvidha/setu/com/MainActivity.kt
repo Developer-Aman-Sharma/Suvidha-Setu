@@ -20,7 +20,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.database
 import com.google.firebase.database.getValue
-import suvidha.setu.comu.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -825,6 +824,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price2.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -835,6 +835,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price3.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -845,6 +846,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price4.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -855,6 +857,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price5.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -865,6 +868,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price6.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -875,6 +879,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price7.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -885,6 +890,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price8.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -895,6 +901,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price9.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -905,6 +912,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price10.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -915,6 +923,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price11.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -925,6 +934,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price12.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -935,6 +945,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price13.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -945,6 +956,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price14.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -955,6 +967,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price15.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -965,6 +978,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price16.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -975,6 +989,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price17.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -985,6 +1000,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price18.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -995,6 +1011,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price19.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1005,6 +1022,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price20.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1015,6 +1033,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price21.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1025,6 +1044,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price22.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1035,6 +1055,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price23.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1045,6 +1066,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price24.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1055,6 +1077,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price25.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1065,6 +1088,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price26.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1075,6 +1099,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price27.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1085,6 +1110,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price28.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1095,6 +1121,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price29.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1105,6 +1132,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price30.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1115,6 +1143,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price31.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1125,6 +1154,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price32.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1135,6 +1165,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price33.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1145,6 +1176,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price34.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1155,6 +1187,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price35.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1165,6 +1198,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price36.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1175,6 +1209,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price37.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1185,6 +1220,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price38.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1195,6 +1231,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price39.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1205,6 +1242,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price40.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1215,6 +1253,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price41.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1225,6 +1264,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price42.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1235,6 +1275,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price43.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1245,6 +1286,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price44.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1255,6 +1297,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price45.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1265,6 +1308,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price46.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1275,6 +1319,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price47.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1285,6 +1330,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price48.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1295,6 +1341,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price49.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1305,6 +1352,7 @@ class MainActivity : AppCompatActivity() {
                 TODO("Not yet implemented")
             }
         })
+
         Price50.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val value = snapshot.getValue<String>()
@@ -1317,28 +1365,29 @@ class MainActivity : AppCompatActivity() {
         })
 
 
-
         val sendButton = findViewById<Button>(R.id.send)
-        sendButton.setOnClickListener{
+        sendButton.setOnClickListener {
             val number = "+918181810955"
-            val message = "Type Your Message...." +
+            val message = "Welcome to Suvidha Setu" +
                     "" +
                     ""
 
             val isAppInstalled = isAppInstalled()
 
-                    if (isAppInstalled){
-                        val launchIntent = Intent(Intent.ACTION_VIEW)
-                        launchIntent.data = Uri.parse("https://api.whatsapp.com/send?phone=$number&text=$message")
-                        startActivity(launchIntent)
+            if (isAppInstalled) {
+                val launchIntent = Intent(Intent.ACTION_VIEW)
+                launchIntent.data =
+                    Uri.parse("https://api.whatsapp.com/send?phone=$number&text=$message")
+                startActivity(launchIntent)
 
-                    } else {
-                        Toast.makeText(this, "Whatsapp is not installed in your phone " , Toast.LENGTH_SHORT).show()
-                    }
+            } else {
+                Toast.makeText(this, "Whatsapp is not installed in your phone ", Toast.LENGTH_SHORT)
+                    .show()
+            }
         }
     }
 
-    private fun isAppInstalled(): Boolean{
+    private fun isAppInstalled(): Boolean {
         val packageManager = packageManager
         return try {
             true
@@ -1348,10 +1397,10 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-   }
-
-
     }
+
+
+}
 
 
 
