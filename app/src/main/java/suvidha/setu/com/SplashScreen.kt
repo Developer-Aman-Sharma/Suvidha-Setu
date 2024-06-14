@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // If enableEdgeToEdge() is a custom function, ensure it's defined correctly.
         // enableEdgeToEdge()

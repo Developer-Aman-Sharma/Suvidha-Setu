@@ -22,7 +22,6 @@ import com.google.firebase.database.database
 import com.google.firebase.database.getValue
 
 class MainActivity : AppCompatActivity() {
-
     @SuppressLint("SuspiciousInd ", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-            window.statusBarColor = resources.getColor(R.color.pink)
+            window.statusBarColor = resources.getColor(R.color.bar_color)
         }
 
         setContentView(R.layout.activity_main)
@@ -1367,7 +1366,7 @@ class MainActivity : AppCompatActivity() {
 
         val sendButton = findViewById<Button>(R.id.send)
         sendButton.setOnClickListener {
-            val number = "+918181810955"
+            val number = "??"
             val message = "Welcome to Suvidha Setu" +
                     "" +
                     ""
@@ -1401,18 +1400,3 @@ class MainActivity : AppCompatActivity() {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
